@@ -25,7 +25,7 @@ See all your tests running http://localhost:4628
 
 
 ## Contributing
-1. Fork it ( https://github.com/wallclockbuilder/stringutil )
+1. Fork it ( https://github.com/wallclockbuilder/goat )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
