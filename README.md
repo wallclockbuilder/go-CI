@@ -23,6 +23,8 @@ goat github.com/wallclockbuilder/goat
 See your tests running at: [http://localhost:4628](http://localhost:4628)
 
 
+![](https://cdn-images-2.medium.com/max/600/1*_SxyPZYd5i_ss1KomYmJMg.png)
+
 ## Contributing
 1. Fork it ( https://github.com/wallclockbuilder/goat )
 2. Create your feature branch (`git checkout -b my-new-feature`)
