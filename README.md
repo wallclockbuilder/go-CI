@@ -1,3 +1,5 @@
+[NOTE: This package is currently under development.]
+
 # goat
 Colorful TDD for Golang
 
