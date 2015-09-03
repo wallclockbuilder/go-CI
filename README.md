@@ -3,7 +3,10 @@
 # goat
 Colorful TDD for Golang
 
-goat uses the webui from [goconvey](https://github.com/smartystreets/goconvey) and the cli param format of [watch](github.com/eaburns/watch).
+Goat displays your golang test results in the browser.
+Its inspired by the webui from smartystreet's [goconvey](https://github.com/smartystreets/goconvey) suite.
+
+goat uses the webui and the cli param format of [watch](github.com/eaburns/watch).
 
 ##Quick start
 ###Install
@@ -16,10 +19,11 @@ You can just simply cd into your working directory and run goat
 ```bash 
 goat
 ```
+Goat will default to the current directory, and go test.
 
-You can specify a package to test
+You can specify a test command to run after any *.go file changes in the working directory
 ```bash
-goat github.com/wallclockbuilder/goat
+goat pkg=github.com/wallclockbuilder/goat cmd="go test -v wif_test.go"
 ```
 
 See your tests running at: [http://localhost:4628](http://localhost:4628)
