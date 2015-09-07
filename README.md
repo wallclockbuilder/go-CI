@@ -1,6 +1,6 @@
 [NOTE: This package is currently under development.]
 
-# go-CI
+# go-CI [![Circle CI](https://circleci.com/gh/wallclockbuilder/go-CI.svg?style=svg)](https://circleci.com/gh/wallclockbuilder/go-CI)
 Colorful TDD for Golang
 
 go-CI displays your golang test results in the browser.
