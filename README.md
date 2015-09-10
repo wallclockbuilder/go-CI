@@ -7,7 +7,7 @@ go-CI displays your golang test results in the browser.
 Its inspired by the webui from smartystreet's [goconvey](https://github.com/smartystreets/goconvey) suite.
 
 go-CI is a gui to the idiomatic `go test` tool.
-It watches the current directory and re-runs `go test` when `*.go` files change.
+It watches the current directory and re-runs `go test` with your args when `*.go` files change. It takes the same arguments as the go test tool.
 
 
 ##Quick start
