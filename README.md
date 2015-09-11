@@ -1,9 +1,9 @@
 [NOTE: This package is currently under development.]
 
 # go-CI [![Circle CI](https://circleci.com/gh/wallclockbuilder/go-CI.svg?style=svg)](https://circleci.com/gh/wallclockbuilder/go-CI)
-Colorful TDD for Golang
+`go test` in Color.
 
-go-CI displays your golang test results in the browser.
+go-CI displays golang test results in the browser.
 Its inspired by the webui from smartystreet's [goconvey](https://github.com/smartystreets/goconvey) suite.
 
 go-CI is a gui to the idiomatic `go test` tool.
@@ -21,7 +21,7 @@ At the terminal, cd into your working directory and run go-CI
 ```bash
 go-CI
 ```
-go-CI will default to the current directory, then just like `go test`.
+go-CI will default to running `go test` in the current directory.
 
 See your tests running at: [http://localhost:4624](http://localhost:4624)
 
