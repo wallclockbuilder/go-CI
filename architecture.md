@@ -9,4 +9,4 @@ This allows us to use Javascript, the good parts without worrying about the bad 
 ## Backend
 The backend handles incoming event prompts.
 It receives and processes all events via a queue.
-This piece is written in golang for easy binary compilation for target OSes.
+This piece is written in golang for easy binary compilation to target OSes.
